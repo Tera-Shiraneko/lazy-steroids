@@ -1,0 +1,34 @@
+{
+    "files": {
+        "Additional-Data/Dungeon-Information/Dungeon-Icons/Instance.png": "208a8d6b4430326b4e3c78a10f23672ceed321ac51db65260c6b114ca6f8d0cc",
+        "Additional-Data/Dungeon-Information/Readme.md": "33998f792096f89a76cbd53b5e274bf20d4c3de16763e0aab7235075fd3b1f5f",
+        "Additional-Data/Skill-Information/Readme.md": "c997eb93f5160a207168035032a1c269f5379c37bbeca592a099bc5e6bd4d9e7",
+        "Additional-Data/Skill-Information/Skill-Icons/Adrenaline_Rush_II.png": "d6aefe0e19e0fc4245e6ce11b31b39210174a1f2d458c6845711146aa178ba3a",
+        "Additional-Data/Skill-Information/Skill-Icons/Deadly_Gamble_II.png": "bac4ba41261b05ccda418292e50419507fee592f504b3cc0e72ede8e24a19514",
+        "Additional-Data/Skill-Information/Skill-Icons/Edict_of_Judgment.png": "6cec18934b888db882326a12fe1b93963b75ff6a7715464ba6f35268090f57f5",
+        "Additional-Data/Skill-Information/Skill-Icons/Godsfall.png": "3e808f9b7f81c59374836fc941fc930dcf27577738789768ac7871b4dce544fa",
+        "Additional-Data/Skill-Information/Skill-Icons/Guardian_Shout_III.png": "97b5ce687735833229b26cdfa0e0e10c6ce981b0ca968e3a98313e3c772849cf",
+        "Additional-Data/Skill-Information/Skill-Icons/In_Cold_Blood_II.png": "2162b01f543add5a499f70776ebd1133aa91136f438400251eb2f83376246f48",
+        "Additional-Data/Skill-Information/Skill-Icons/Infuriate.png": "11ef330a8c3a9e8bedd08cf3fecc83a1478941d64544e9e60918ffb15ff24c7c",
+        "Additional-Data/Skill-Information/Skill-Icons/Infuriate_I.png": "d36b9c08f7706b908287a81a4310d89c57b878fe865c4c29be2564e874b4be3a",
+        "Additional-Data/Skill-Information/Skill-Icons/Inner_Harmony.png": "b74bd7f4b3439960dd7dbd83fcdedf99927f5eac85788f433a26e077f84efbc9",
+        "Additional-Data/Skill-Information/Skill-Icons/Mana_Boost_II.png": "a6f948de5280f082763275b99b4cc72180cf83dfdf4c1c3bbe1b9bc56bece8bb",
+        "Additional-Data/Skill-Information/Skill-Icons/Modular_Weapon_System.png": "051d9497cf3ec5251d02db8d5eb2ed2066ee96a77e312321f4583897e15ff0b7",
+        "Additional-Data/Skill-Information/Skill-Icons/Ragnarok_I.png": "fd22929aa80db31d1d8996c5ee4f880214b1ff6b1b47eaa076ecf1172e3da67f",
+        "Additional-Data/Skill-Information/Skill-Icons/Rhythmic_Blows.png": "784e750e34d9cdbf4e1f24eafbbcb905ac3e8a140f5f5b1d2595cd9c4071e238",
+        "Additional-Data/Skill-Information/Skill-Icons/Shadow_Reaping.png": "4b388a202c623f1619d34df2debef965f77d24d4b2b345ee90f2ae2acbbc1655",
+        "Additional-Data/Skill-Information/Skill-Icons/Summon_Thrall_Lord.png": "303f0961ac20dd6322ece44081ebd2364a4fd433bdc0307d082d5304d5d0675f",
+        "Additional-Data/Skill-Information/Skill-Icons/Unleash.png": "71c7fd8291295d692dd04cc08fd4e2495ef025e0afdec97d5aaca6e3b4c6abed",
+        "Additional-Data/Skill-Information/Skill-Icons/Windsong_I.png": "8d882e6942820962914007fe82ae78a1ef6b9a4fda60c7028b9fbbedee7e4770",
+        "Readme.md": "b6b5c00c73ce107245177db4faa5bc3275155989947aa0d06a42e6889df6a1af",
+        "index.js": "8b07ae73f7ef10da4d23f585549f4349bb4a64472d65c589e703ed716ac0cd4d",
+        "module.json": "9d0c02a9e0cba3bdfa4c5ff40830ef2aecdf7e8eba5df20e74646ee7a1eb6185",
+        "settings_migrator.js": "3c0ec6b02eff553646f8bc0b361cc7a1d6f0e532be93f54c5c40efc994c5209e",
+        "settings_structure.js": "591ec0d636fde4d8ca4c6c8b561fd576967668a73f9089345095b3ddbe20fd45"
+    },
+    "defs": {
+        "C_START_SKILL": 7,
+        "C_USE_ITEM": 3,
+        "S_START_COOLTIME_ITEM": 1
+    }
+}

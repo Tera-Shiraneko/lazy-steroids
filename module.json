@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Lazy Steroids",
+    "author": "Shalltearz",
+    "description": "Tera toolbox module which automatically uses brooch and or rootbeer.",
+    "version": "1.0",
+    "options": {
+        "niceName": "Lazy Steroids",
+        "guiName": "Lazy Steroids",
+        "settingsVersion": 1.5,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/Tera-Shiraneko/lazy-steroids/master/"],
+    "supportUrl": "https://github.com/Tera-Shiraneko/lazy-steroids/issues"
+}
