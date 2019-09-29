@@ -5,17 +5,17 @@ module.exports = [
         "type": "bool"
     },
     {
-        "key": "world",
+        "key": "open_world",
         "name": "Switch between the open world mode and the in dungeon usage mode.",
         "type": "bool"
     },
     {
-        "key": "notify",
+        "key": "notification",
         "name": "Receive a notification with your current rootbeer amount after using it.",
         "type": "bool"
     },
     {
-        "key": "debug",
+        "key": "debug_mode",
         "name": "Show skill and zone id's after skill usage or teleport in your toolbox chat.",
         "type": "bool"
     },

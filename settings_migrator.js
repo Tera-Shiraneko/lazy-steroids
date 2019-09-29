@@ -2,13 +2,13 @@ const fs = require("fs");
 
 const Default_Settings = {
     "enabled": true,
-    "world": true,
-    "notify": false,
-    "debug": false,
+    "open_world": true,
+    "notification": false,
+    "debug_mode": false,
     "use_brooch_on": [],
     "use_rootbeer_on": [],
     "use_out_of_combat": false,
-    "delay": 0,
+    "trigger_delay": 0,
     "skills": {
         "warrior": {
             "use_brooch_on": [
@@ -20,7 +20,7 @@ const Default_Settings = {
                 200200
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "lancer": {
             "use_brooch_on": [
@@ -34,7 +34,7 @@ const Default_Settings = {
                 70300
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "slayer": {
             "use_brooch_on": [
@@ -44,7 +44,7 @@ const Default_Settings = {
                 200300
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "berserker": {
             "use_brooch_on": [
@@ -54,7 +54,7 @@ const Default_Settings = {
                 330100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "sorcerer": {
             "use_brooch_on": [
@@ -66,7 +66,7 @@ const Default_Settings = {
                 340230
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "archer": {
             "use_brooch_on": [
@@ -76,7 +76,7 @@ const Default_Settings = {
                 350100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "priest": {
             "use_brooch_on": [
@@ -86,7 +86,7 @@ const Default_Settings = {
                 430100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "elementalist": {
             "use_brooch_on": [
@@ -96,7 +96,7 @@ const Default_Settings = {
                 480100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "soulless": {
             "use_brooch_on": [
@@ -106,7 +106,7 @@ const Default_Settings = {
                 160100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "engineer": {
             "use_brooch_on": [
@@ -116,7 +116,7 @@ const Default_Settings = {
                 410101
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "fighter": {
             "use_brooch_on": [
@@ -128,7 +128,7 @@ const Default_Settings = {
                 260100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "assassin": {
             "use_brooch_on": [
@@ -138,7 +138,7 @@ const Default_Settings = {
                 230100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         },
         "glaiver": {
             "use_brooch_on": [
@@ -150,7 +150,7 @@ const Default_Settings = {
                 250100
             ],
             "use_out_of_combat": true,
-            "delay": 0
+            "trigger_delay": 0
         }
     },
     "dungeon_blacklist": [
