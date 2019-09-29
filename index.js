@@ -92,7 +92,7 @@ module.exports = function Lazy_Steroids(mod) {
                 mod.setTimeout(use_item, config.trigger_delay, brooch_info, info.loc, info.w);
             }
             else if (config.notification && !brooch_info) {
-                command.message('[Error] The module can not find any brooch to use.'.clr('ff1d00'));
+                command.message('[Warning] The module can not find any brooch to use.'.clr('ff00ff'));
             }
         }
         if (config.use_rootbeer_on.includes(info.skill.id) && Date.now() > rootbeer_cooldown) {
@@ -101,7 +101,7 @@ module.exports = function Lazy_Steroids(mod) {
                 mod.setTimeout(use_item, config.trigger_delay, rootbeer_info, info.loc, info.w);
             }
             else if (config.notification && !rootbeer_info) {
-                command.message('[Error] The module can not find any rootbeer to use.'.clr('ff1d00'));
+                command.message('[Warning] The module can not find any rootbeer to use.'.clr('ff00ff'));
             }
         }
     };

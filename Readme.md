@@ -10,6 +10,8 @@
 | `/8 lazy notify` | To receive a notification with your current rootbeer amount after using it. | Disabled by default. |
 | `/8 lazy debug` | To show skill and zone id's after skill usage or teleport in your toolbox chat. | Disabled by default. |
 
+- If you got notifications enabled you'll also receive warnings if the module can't find any brooch and or rootbeer to use.
+
 ---
 
 ### Interface Commands
@@ -53,8 +55,6 @@
 ### Note
 - An list of the blacklisted dungeons which are currently added in the config file can be found here [Dungeon Overview](https://github.com/Tera-Shiraneko/lazy-steroids/tree/master/Additional-Data/Dungeon-Information).
 - An list of the trigger skills which are currently added in the config file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazy-steroids/tree/master/Additional-Data/Skill-Information).
-- If you got notifications enabled you'll also receive warnings if the module can't find any brooch and or rootbeer to use.
 - If you got multiple skill id's in your class configuration brooch and or rootbeer will be used on the first trigger skill.
 - If you enter multiple skill id's in the config file or settings interface you need to put an comma between each skill.
-- I don't play every class so it's possible that you have to edit your class configuration yourself.
 - If you unlock an skill option for an already added skill it's possible that the skill id will change.
