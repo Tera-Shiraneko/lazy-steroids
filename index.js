@@ -146,10 +146,10 @@ module.exports = function Lazy_Steroids(mod) {
         });
         ui.on('update', settings => {
             if (typeof config.use_brooch_on === 'string') {
-                config.skills[player.class].use_brooch_on = config.use_brooch_on.split(/\s*(?:,|$)\s*/).map(Number);
+                config.skills[player.class].use_brooch_on = config.use_brooch_on = config.use_brooch_on.split(/\s*(?:,|$)\s*/).map(Number);
             }
             if (typeof config.use_rootbeer_on === 'string') {
-                config.skills[player.class].use_rootbeer_on = config.use_rootbeer_on.split(/\s*(?:,|$)\s*/).map(Number);
+                config.skills[player.class].use_rootbeer_on = config.use_rootbeer_on = config.use_rootbeer_on.split(/\s*(?:,|$)\s*/).map(Number);
             }
             config.skills[player.class].use_out_of_combat = config.use_out_of_combat;
             config.skills[player.class].trigger_delay = config.trigger_delay;

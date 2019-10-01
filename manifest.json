@@ -20,11 +20,11 @@
         "Additional-Data/Skill-Information/Skill-Icons/Summon_Thrall_Lord.png": "303f0961ac20dd6322ece44081ebd2364a4fd433bdc0307d082d5304d5d0675f",
         "Additional-Data/Skill-Information/Skill-Icons/Unleash.png": "71c7fd8291295d692dd04cc08fd4e2495ef025e0afdec97d5aaca6e3b4c6abed",
         "Additional-Data/Skill-Information/Skill-Icons/Windsong_I.png": "8d882e6942820962914007fe82ae78a1ef6b9a4fda60c7028b9fbbedee7e4770",
-        "Readme.md": "9d89bee2d27f50d2a81988cc6379e512ecf80ddd3fa2fc6beb57c8e64ef9e5af",
-        "index.js": "1d5796b10fb65b8007cdfd70a27e2363f0eb0c65314865f0ed2070f283147c8f",
-        "module.json": "9d0c02a9e0cba3bdfa4c5ff40830ef2aecdf7e8eba5df20e74646ee7a1eb6185",
+        "Readme.md": "1cb46f884699a02b17e056b5e0fea58be69d48696b29081901a28c68c70cdedb",
+        "index.js": "a1331470ecb6d752c7a613e8b65b82f36f4f32adb7292f09fedbc495e93c173c",
+        "module.json": "f07783a9f938d19fdf27f6104d7f0afde43c83bddbe5283da3f96b919aa8953a",
         "settings_migrator.js": "bec6d59995974a121e983e5afb4a159326bebd7f788f44ab7fab0ee4d02e2f99",
-        "settings_structure.js": "8a3a7c45fe2e2ab39f3c8d3dceda234a60af0d30872b5e91636d6f4ff9cc56a1"
+        "settings_structure.js": "03544c206f949800c9e56f30da37799cd55e8d76d4545907ce0173225674dfc1"
     },
     "defs": {
         "C_START_SKILL": 7,

@@ -2,7 +2,7 @@
     "disableAutoUpdate": false,
     "name": "Lazy Steroids",
     "author": "Shalltearz",
-    "description": "Tera toolbox module which automatically uses brooch and or rootbeer.",
+    "description": "Tera toolbox module which is using brooch and or rootbeer after the desired trigger skills.",
     "version": "1.0",
     "options": {
         "niceName": "Lazy Steroids",

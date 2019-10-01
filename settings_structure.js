@@ -1,7 +1,7 @@
 module.exports = [
     {
         "key": "enabled",
-        "name": "Automatically use brooch and or rootbeer when using self defined skills.",
+        "name": "Automatically use brooch and or rootbeer after the desired trigger skills.",
         "type": "bool"
     },
     {
@@ -21,7 +21,7 @@ module.exports = [
     },
     {
         "key": "dungeon_blacklist",
-        "name": "Here you can add or remove dungeon zone id's to the dungeon blacklist.",
+        "name": "Add or remove dungeon zone id's to the dungeon blacklist.",
         "type": "string"
     },
     {
@@ -40,23 +40,23 @@ module.exports = [
         "type": ""
     },
     {
-        "key": "use_out_of_combat",
-        "name": "Choose if the module should only work in combat mode or out of combat too.",
-        "type": "bool"
-    },
-    {
         "key": "use_brooch_on",
-        "name": "Put the desired skill id's in here which should trigger automatic brooch usage.",
+        "name": "Add or remove skill id's which should trigger automatic brooch usage.",
         "type": "string"
     },
     {
         "key": "use_rootbeer_on",
-        "name": "Put the desired skill id's in here which should trigger automatic rootbeer usage.",
+        "name": "Add or remove skill id's which should trigger automatic rootbeer usage.",
         "type": "string"
     },
     {
-        "key": "delay",
-        "name": "Delay in milliseconds between the skill cast and brooch and or rootbeer usage.",
+        "key": "use_out_of_combat",
+        "name": "Switch between the in combat mode and the out of combat usage mode.",
+        "type": "bool"
+    },
+    {
+        "key": "trigger_delay",
+        "name": "Set the desired brooch and or rootbeer usage trigger delay.",
         "type": "number"
     }
 ];

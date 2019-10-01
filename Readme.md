@@ -1,11 +1,11 @@
-### Tera toolbox module which automatically uses brooch and or rootbeer.
+### Tera toolbox module which is using brooch and or rootbeer after the desired trigger skills.
 
 ---
 
 ### Console Commands
 | Command | Description | Status |
 | :---: | :---: | :---: |
-| `/8 lazy` | To automatically use brooch and or rootbeer when using self defined skills. | Enabled by default. |
+| `/8 lazy` | To automatically use brooch and or rootbeer after the desired trigger skills. | Enabled by default. |
 | `/8 lazy world` | To switch between the open world mode and the in dungeon usage mode. | Enabled by default. |
 | `/8 lazy notify` | To receive a notification with your current rootbeer amount after using it. | Disabled by default. |
 | `/8 lazy debug` | To show skill and zone id's after skill usage or teleport in your toolbox chat. | Disabled by default. |
@@ -31,10 +31,10 @@
 
 | Name | Description |
 | :---: | :---: |
-| `skills[class].use_brooch_on` | Put the desired skill id's in here which should trigger automatic brooch usage. |
-| `skills[class].use_rootbeer_on` | Put the desired skill id's in here which should trigger automatic rootbeer usage. |
-| `skills[class].use_out_of_combat` | Choose if the module should only work in combat mode or out of combat too. |
-| `skills[class].trigger_delay` | Delay in milliseconds between the skill cast and brooch and or rootbeer usage. |
+| `skills[class].use_brooch_on` | Here you can add or remove skill id's which should trigger automatic brooch usage. |
+| `skills[class].use_rootbeer_on` | Here you can add or remove skill id's which should trigger automatic rootbeer usage. |
+| `skills[class].use_out_of_combat` | Here you can switch between the in combat mode and the out of combat usage mode. |
+| `skills[class].trigger_delay` | Here you can set the desired brooch and or rootbeer usage trigger delay. |
 | `dungeon_blacklist` | Here you can add or remove dungeon zone id's to the dungeon blacklist. |
 
 - Don't edit the class settings without the class name. Those are fake settings used by the user interface only.
