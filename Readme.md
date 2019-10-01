@@ -55,6 +55,6 @@
 ### Note
 - An list of the blacklisted dungeons which are currently added in the config file can be found here [Dungeon Overview](https://github.com/Tera-Shiraneko/lazy-steroids/tree/master/Additional-Data/Dungeon-Information).
 - An list of the trigger skills which are currently added in the config file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazy-steroids/tree/master/Additional-Data/Skill-Information).
-- If you got multiple skill id's in your class configuration brooch and or rootbeer will be used on the first trigger skill.
-- If you enter multiple skill id's in the config file or settings interface you need to put an comma between each skill.
+- In case of multiple skill id's in your class configuration brooch and or rootbeer will be used on the first trigger skill.
+- In case of multiple skill id's in the config file or settings interface you need to seperate them with a comma.
 - If you unlock an skill option for an already added skill it's possible that the skill id will change.
