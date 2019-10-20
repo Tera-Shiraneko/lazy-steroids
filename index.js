@@ -57,7 +57,7 @@ module.exports = function Lazy_Steroids(mod) {
             in_dungeon = false;
         }
         if (config.debug_mode) {
-            command.message(`[Info] Zone id | ${zone} | found. For further instructions read the readme.`.clr('ffff00'));
+            command.message(`[Info] Zone id ${zone} found. For further instructions read the readme.`.clr('ffff00'));
         }
     });
 
@@ -66,7 +66,7 @@ module.exports = function Lazy_Steroids(mod) {
             handle(event);
         }
         if (config.debug_mode) {
-            command.message(`[Info] Skill id | ${event.skill.id} | found. For further instructions read the readme.`.clr('ffff00'));
+            command.message(`[Info] Skill id ${event.skill.id} found. For further instructions read the readme.`.clr('ffff00'));
         }
     });
 
@@ -84,7 +84,7 @@ module.exports = function Lazy_Steroids(mod) {
         config.debug_mode = false;
     });
 
-    const handle = (info) => {
+    function handle(info) {
         if ((!config.use_out_of_combat && !player.inCombat) || player.inBattleground || (!in_dungeon && !config.open_world)) return;
         if (config.use_brooch_on.includes(info.skill.id) && Date.now() > brooch_cooldown) {
             const brooch_info = mod.game.inventory.equipment.slots[20];
@@ -104,9 +104,9 @@ module.exports = function Lazy_Steroids(mod) {
                 command.message('[Warning] The module can not find any rootbeer to use.'.clr('ff00ff'));
             }
         }
-    };
+    }
 
-    const use_item = (item_info, loc_info, angle_info) => {
+    function use_item(item_info, loc_info, angle_info) {
         if (not_usable_brooch.includes(item_info.id)) return;
         mod.send('C_USE_ITEM', 3, {
             gameId: player.gameId,
@@ -117,11 +117,11 @@ module.exports = function Lazy_Steroids(mod) {
             unk4: true
         });
         if (config.notification && usable_beer.includes(item_info.id)) {
-            command.message(`[Info] You got | ${item_info.amount - 1} | ${item_info.data.name} | left in your inventory.`.clr('ffff00'));
+            command.message(`[Info] You got ${item_info.amount - 1}x${item_info.data.name} left in your inventory.`.clr('ffff00'));
         }
-    };
+    }
 
-    const check_config_file = () => {
+    function check_config_file() {
         if (!Array.isArray(config.skills[player.class].use_brooch_on)) {
             config.skills[player.class].use_brooch_on = [];
             mod.error('Invalid brooch skill settings detected default settings will be applied.');
@@ -134,7 +134,7 @@ module.exports = function Lazy_Steroids(mod) {
             config.dungeon_blacklist = [];
             mod.error('Invalid dungeon blacklist settings detected default settings will be applied.');
         }
-    };
+    }
 
     let ui = null;
 

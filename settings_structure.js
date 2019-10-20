@@ -11,7 +11,7 @@ module.exports = [
     },
     {
         "key": "notification",
-        "name": "Receive a notification with your current rootbeer amount after using it.",
+        "name": "Receive a private notification with your current rootbeer amount after using it.",
         "type": "bool"
     },
     {

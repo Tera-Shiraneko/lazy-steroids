@@ -7,7 +7,7 @@
 | :---: | :---: | :---: |
 | `/8 lazy` | To automatically use brooch and or rootbeer after the desired trigger skills. | Enabled by default. |
 | `/8 lazy world` | To switch between the open world mode and the in dungeon usage mode. | Enabled by default. |
-| `/8 lazy notify` | To receive a notification with your current rootbeer amount after using it. | Disabled by default. |
+| `/8 lazy notify` | To receive a private notification with your current rootbeer amount after using it. | Disabled by default. |
 | `/8 lazy debug` | To show skill and zone id's after skill usage or teleport in your toolbox chat. | Disabled by default. |
 
 - If you got notifications enabled you'll also receive warnings if the module can't find any brooch and or rootbeer to use.
