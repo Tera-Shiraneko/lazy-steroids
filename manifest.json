@@ -21,10 +21,10 @@
         "Additional-Data/Skill-Information/Skill-Icons/Unleash.png": "71c7fd8291295d692dd04cc08fd4e2495ef025e0afdec97d5aaca6e3b4c6abed",
         "Additional-Data/Skill-Information/Skill-Icons/Windsong_I.png": "8d882e6942820962914007fe82ae78a1ef6b9a4fda60c7028b9fbbedee7e4770",
         "Readme.md": "417c4dca9db5988edab72f46d006efffaae401768f9e839327dd70a8199d7f68",
-        "index.js": "0ccd7d3dad15d398647750672d66f2dc58c9420e2dbcf27f5d95eae744469ea1",
+        "index.js": "7ea931066e152c3ac89667cd9d83142bde6ffc20e4176c51f1afe3516b28a14d",
         "module.json": "f07783a9f938d19fdf27f6104d7f0afde43c83bddbe5283da3f96b919aa8953a",
         "settings_migrator.js": "bec6d59995974a121e983e5afb4a159326bebd7f788f44ab7fab0ee4d02e2f99",
-        "settings_structure.js": "f1f7c33dd271c5f4752ce44c5510af2fc7c7b4edd0e35dbd921d5b909c61a6c8"
+        "settings_structure.js": "ccaea865d662e5e44c91092f88a43d068fbf138ae035bf34e67aa94143d9aee5"
     },
     "defs": {
         "C_START_SKILL": 7,

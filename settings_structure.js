@@ -25,21 +25,6 @@ module.exports = [
         "type": "string"
     },
     {
-        "key": "",
-        "name": "",
-        "type": ""
-    },
-    {
-        "key": "",
-        "name": "Under this line you can edit your current class configuration.",
-        "type": ""
-    },
-    {
-        "key": "",
-        "name": "",
-        "type": ""
-    },
-    {
         "key": "use_brooch_on",
         "name": "Add or remove skill id's which should trigger automatic brooch usage.",
         "type": "string"

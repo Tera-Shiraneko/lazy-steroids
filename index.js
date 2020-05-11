@@ -142,7 +142,7 @@ module.exports = function Lazy_Steroids(mod) {
         ui = new SettingsUI(mod, require('./settings_structure'), config, {
             alwaysOnTop: true,
             width: 1000,
-            height: 415
+            height: 325
         });
         ui.on('update', settings => {
             if (typeof config.use_brooch_on === 'string') {
